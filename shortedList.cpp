@@ -28,7 +28,7 @@ void INIT()
 //		printf("\nAddress>> %d ",&arr.A[i]);
 	}
 }
-void AShorting()
+void ASorting()
 {
 	struct Array arr;
 	int i,j,temp;
@@ -50,7 +50,7 @@ void AShorting()
 		printf("\n%d>> %d",i,arr.A[i]);
 	}
 }
-void DShorting()
+void DSorting()
 {
 	struct Array arr;
 	int i,j,temp;
@@ -75,7 +75,7 @@ void DShorting()
 int main()
 {
 	INIT();
-	AShorting();
-	DShorting();
+	ASorting();
+	DSorting();
 	return 0;
 }
